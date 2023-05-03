@@ -1,0 +1,43 @@
+.outer{
+    margin: 100px;
+    background-color: rgb(213, 242, 232);
+   
+}
+.btn{
+    margin: 30px;
+    margin-left: 200px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px;
+    background-color: rgb(154, 217, 196);
+}
+.btn:hover{
+    background-color: rgb(185, 147, 221);
+    transform: scale(1.2);
+}
+.inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid rgb(231, 209, 209);
+    border-radius: 20px;
+    width : 250px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    box-shadow: 10px 10px 20px;
+    background-color: rgb(209, 149, 221);
+
+    
+}
+.card:hover{
+    transform: scale(1.2);
+    background-color: rgb(199, 174, 222);
+}
