@@ -1,0 +1,42 @@
+.navouter{                                                                           
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+     font-size: 20px;
+     background-color: rgb(161, 239, 165);
+     height: 60px;
+     
+  
+  }
+  
+  
+  @media screen and (max-width: 768px){
+    .navouter{
+      display: none;
+    }
+   
+    .menu{
+      position: absolute;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  
+    .navelm{
+      background-color: rgb(159, 222, 143);
+      height: 300px;
+      width: 130px;
+      padding: 30px;
+      
+    }
+  }
+  
+  
+  @media screen and (min-width: 768px){
+         .menu{
+          display: none;
+         }
+  }
