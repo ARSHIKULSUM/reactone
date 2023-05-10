@@ -1,0 +1,46 @@
+.outer{
+    display: flex;
+    gap: 7vw;
+    height: 50vh;
+    width: 80vw;
+    background-color: rgb(201, 242, 150);
+    padding: 7vh;
+    overflow: scroll;
+    margin: 10px;
+    
+}
+
+.outer::-webkit-scrollbar{
+    display: none;
+}
+
+
+.card{
+    border: 1px solid black;
+    height: 45vh;
+    background-color: rgb(85, 132, 85);
+    min-width: 20vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.flvr{
+    
+    height: 25vh;
+    width: 18vw;
+    margin: 5%;
+    background-color: rgb(213, 232, 169);
+}
+.img{
+    width: 18vw;
+    height: 25vh;
+}
