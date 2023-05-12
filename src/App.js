@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Scroll from './atom/scroll';
+import Game from './orgaisms/tic-tac';
+
 
 function App() {
   return (
     <>
-    <Scroll />
+    <Game />
     </>
   );
 }
