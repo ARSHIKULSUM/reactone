@@ -1,12 +1,12 @@
 
 import './App.css';
-import Game from './orgaisms/tic-tac';
+import Todo from './orgaisms/page';
 
 
 function App() {
   return (
     <>
-    <Game />
+    <Todo />
     </>
   );
 }
