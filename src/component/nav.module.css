@@ -32,6 +32,18 @@
   display: none;
 }
 
+.navbtn{
+  height: 4vh;
+  width: 12vh;
+  margin-top: 2vh;
+  border-radius: 10px;
+  
+}
+
+.navbtn:hover{
+  background-color: palevioletred;
+}
+
   
   
   @media screen and (max-width: 768px){
