@@ -9,22 +9,17 @@ export default function Todo(){
     const[completed, setCompleted]=useState([])
 
    // adding btn functionality
-   /*
-
-
     function handleDelete(index){
-      const filteredTodo= todo.filter((item, i)=> i !== index)
-      setTodo(filteredTodo);
-    }*/
-    function handleDelete(index){
+       // Get the current todo list
+    const todoList = [...todo];
+
+    // start from index nd dlt 1 elm
+    todo.splice(index, 1);
+
+    // slice elm starting to index(excluded) then all other elm.
+    setTodo([...todo.slice(0, index), ...todo.slice(index + 1)]);
      
-      const filteredTodo= todo.filter((item, i)=> i !== index)
-      setTodo(filteredTodo);
-      setCompleted(prevCompleted => {
-        const newCompleted = [...prevCompleted];
-        newCompleted.splice(index, 1);
-        return newCompleted;
-      });
+    
     }
 
    
@@ -48,12 +43,7 @@ export default function Todo(){
             
     }
     function handleComplete(index) {
-      
-      setCompleted(prevCompleted => {
-          const newCompleted = [...prevCompleted];
-          newCompleted[index] = true;
-          return newCompleted;
-      });
+    
   }
 
 
@@ -72,18 +62,20 @@ export default function Todo(){
                         <Button
                         text="complete"
                          btnclass={Styles.done} 
-                         onClick={() => handleComplete(index)}
+                         clickEvent={() => handleComplete}
                           />
                          
                          <Button
                             text="x"
                             btnclass={Styles.dlt}
-                             onClick={() => handleDelete(index)}
+                            clickEvent={() => handleDelete(index)}
+                             
                         />
                         
                         </li>
                 ))
-              }
+              } 
+
 
             </ul>
 
