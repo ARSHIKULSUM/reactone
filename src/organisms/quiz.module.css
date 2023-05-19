@@ -1,0 +1,63 @@
+/*body{
+    background-image: linear-gradient(to bottom right, rgb(7, 46, 105), rgb(117, 168, 211));
+}*/
+body{
+    background-color: rgb(31, 144, 185);
+}
+
+.outer{
+    background-color: rgb(4, 29, 63);
+    border: 1px solid grey;
+    height: 39vh;
+    width: 35vw;
+    margin: auto;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(158, 155, 155);
+    padding: 20px;
+}
+
+.inner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+ 
+   
+    
+}
+.optn{
+   
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    position: relative;
+    
+    justify-content:space-around;
+    margin: 1px;
+    
+}
+
+.optnbtn{
+    background-color: rgb(68, 98, 133);
+    color: white;
+    border-radius: 8px;
+    height: 4vh;
+    width: 8vw;
+    align-self: flex-end;
+
+}
+.optnbtn:hover{
+    background-color: rgb(113, 180, 209);
+}
+.ques{
+    align-self: flex-start;
+    width: 70%;
+   
+    
+}
+
