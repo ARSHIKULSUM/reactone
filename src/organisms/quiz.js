@@ -43,6 +43,7 @@ export default function Quiz(){
          setScore(0)
          setResult(false)
          setTime(10)
+         setBtntxt('Next Ques')
     }
 
     function endquiz(){
