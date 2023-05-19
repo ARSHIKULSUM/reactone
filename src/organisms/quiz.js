@@ -64,7 +64,7 @@ export default function Quiz(){
 
 
     useEffect(()=>{
-       const intervalclear=setInterval(timer ,1000);
+       const intervalclear=setInterval(timer ,10000);
           
          return ()=>{
             clearInterval(intervalclear)
