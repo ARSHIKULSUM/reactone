@@ -1,0 +1,115 @@
+.wrapper {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+  margin: auto;
+  flex-direction: column;
+  background-color: rgb(134, 88, 88);
+}
+
+.text {
+  margin-top: 0%;
+  text-align: center;
+  color: black;
+}
+
+.searchcontainer {
+  display: flex;
+  align-items: center;
+ /* border-radius: 20px 22px 1px 1px;*/
+ 
+  background-color: rgb(255, 255, 255);
+  width: 50vw;
+  height: 45px;
+  align-items: center;
+  border-radius: 50px;
+  
+  margin-top: 0%;
+  padding: 2px;
+  padding-left: 10px;
+}
+
+.searchcontainer input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 16px;
+  height: 4vh;;
+  margin: 15px;
+/* border-radius: 50px ;*/
+border: none;
+}
+.searchcontainer input[type="text"]:focus{
+  outline: none;
+}
+
+.searchcontainer input[type="text"]::placeholder {
+  color: #999;
+}
+
+.matchedstates {
+  list-style: none;
+  height: fit-content;
+  width: 40vw;
+  color: black;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+ 
+  color: black;
+  font-weight: bold;
+  padding-left: 5px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+
+}
+
+.searchresult {
+  padding: 10px 20px;
+}
+
+
+
+/*.outer{
+  width: 50vw;
+  margin-top: 15vh;
+  margin-left: 25vw;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.input{
+    width: 40vw;
+    margin-left: 5vw;
+   
+    height: 6vh;
+    
+    font-size: 20px;
+    border: none;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.suglist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .suglist li {
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+  }
+  
+  .suglist li:hover {
+    background-color: #e0e0e0;
+  }*/
